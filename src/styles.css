@@ -1,0 +1,49 @@
+.App {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.App h1,
+.App h2,
+.App h3,
+.App h4 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.tabs {
+  max-width: 400px;
+  margin: 70px auto;
+}
+
+.tabs div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-title {
+  font-size: 18px;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px 5px 0 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab-title.active {
+  background-color: #b8dbeb;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-content {
+  padding: 20px 25px;
+  line-height: 1.5;
+  border: 1px solid #b8dbeb;
+  background-color: #f2f5f7;
+  border-radius: 0 0 5px 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
