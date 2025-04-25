@@ -1,7 +1,6 @@
 {
   "name": "Squeaky Clean",
   "version": "1.0.0",
-  "homepage":"https://kellyk907.github.io/SqueakyClean/",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
